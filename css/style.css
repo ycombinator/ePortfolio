@@ -1,0 +1,77 @@
+p {
+  font-family: "Georgia", serif;
+  font-size: 1em;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 1.3em;
+}	
+
+h1 {
+  font-family: "Georgia", serif;
+  font-size: 1.6em;
+  margin-top: 0em;
+}
+
+h1.introduction {
+  font-size: 1.9em;
+}
+
+div {
+  float: left;
+}
+
+div#page-section {
+  margin-top: 1em;
+  margin-left: 4em;
+  padding-top: 4em;
+  padding-right: 1em;
+  width: 100em;
+  <!-- background-image: url('../images/paper-1.jpg'); -->
+  background-repeat: no-repeat;
+}
+
+div#page-section div {
+  opacity: 0.7;
+}
+
+div#header-section {
+  margin-left: 12em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  float: left;
+  height: 2.5em;
+}
+
+div#nav-section {
+  margin-top: 2em;
+  margin-left: 2em;
+  float: left;
+  clear: left;
+  position: fixed;
+  background-color: #fffffa;
+}
+
+div#nav-section ul {
+  list-style: none;
+  font-family: "Georgia", serif;
+  font-size: 1.1em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+div#nav-section ul a {
+  <!-- color: #ffffff; -->
+}
+
+div#nav-section ul li.current {
+  font-weight: bolder;
+}
+
+div#main-section {
+  margin-left: 12em;
+  float: left;
+  clear: left;
+  width: 40em;
+}
