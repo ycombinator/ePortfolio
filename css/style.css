@@ -28,11 +28,14 @@ div {
 }
 
 div#page-section {
-  margin-top: 1em;
-  margin-left: 4em;
+  margin-top: 5em;
+  margin-left: 5em;
+  margin-bottom: 15em;
   padding-top: 4em;
   padding-right: 1em;
-  width: 100em;
+  padding-bottom: 1em;
+  width: 52em;
+  background-color: #fff;  
 }
 
 div#page-section div {
@@ -48,11 +51,13 @@ div#header-section {
 }
 
 div#nav-section {
-  margin-top: 2em;
+  margin-top: 5em;
   margin-left: 2em;
   float: left;
   clear: left;
-  position: fixed;
+  border-width: 0.1em;
+  border-color: #071F4C;
+  border-style: solid;
 }
 
 div#nav-section ul {
@@ -64,16 +69,17 @@ div#nav-section ul {
 }
 
 div#nav-section ul a {
-  color: #fff; 
+  color: #aaa;
 }
 
 div#nav-section ul li.current a {
   text-decoration: none;
+  color: #071F4C;
 }
 
 div#main-section {
-  margin-left: 12em;
   float: left;
-  clear: left;
-  width: 40em; background-color: #fff;
+  margin-left: 1em;
+  width: 39em;
+  background-color: #fff;
 }
