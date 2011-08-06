@@ -94,6 +94,8 @@ div#footer-section {
   clear: left;
   margin-top: -14em;
   white-space: nowrap;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
 }
 
 div#footer-section img.right {
