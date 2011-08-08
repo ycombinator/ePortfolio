@@ -62,7 +62,7 @@ div#nav-section {
   clear: left;
   border-width: 1px;
   border-color: #071F4C;
-  border-style: solid;
+  border-style: none;
 }
 
 div#nav-section ul {
