@@ -71,11 +71,11 @@ div#nav-section ul {
 }
 
 div#nav-section ul a {
-  color: #aaa;
+  text-decoration: none;
+  color: #bb8760;
 }
 
 div#nav-section ul li.current a {
-  text-decoration: none;
   color: #071F4C;
 }
 
