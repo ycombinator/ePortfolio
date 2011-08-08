@@ -23,24 +23,17 @@ h2 {
   font-size: 1.3em;
 }	
 
-div {
-  float: left;
-}
-
 div#page-section {
-  margin-top: 5em;
-  margin-left: 5em;
-  padding-top: 4em;
-  padding-right: 1em;
+  margin-top: 4em;
+  padding-top: 3em;
   padding-bottom: 1em;
   width: 52em;
-  background-color: #fff;  
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  overflow: hidden;
 }
-
-div#page-section div {
-  opacity: 1;
-}
-
+ 
 div#header-section {
   margin-left: 1.3em;
   margin-bottom: 0em;
@@ -58,7 +51,7 @@ div#header-section img {
 
 div#nav-section {
   margin-top: 5em;
-  margin-left: 2em;
+  margin-left: 0.5em;
   float: left;
   clear: left;
   border-width: 0.1em;
@@ -86,16 +79,22 @@ div#nav-section ul li.current a {
 div#main-section {
   float: left;
   margin-left: 1em;
-  width: 39em;
-  background-color: #fff;
+  width: 41.5em;
 }
 
 div#footer-section {
-  clear: left;
-  margin-top: -14em;
-  white-space: nowrap;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 58em;
+}
+
+div#footer-section img {
+  position: relative;
+  margin-top: -13em;
 }
 
 div#footer-section img.right {
-  margin-left: 22em;
+  float: right;
+  margin-top: -4.2em;
 }
