@@ -14,7 +14,7 @@ h1 {
   font-family: "Georgia", serif;
   font-size: 1.6em;
   margin-top: 0px;
-  margin-left: 165px;
+  margin-left: 182px;
 }
 
 h1.introduction {
@@ -35,6 +35,9 @@ div#page-section {
   margin-right: auto;
   background-color: #fff;
   overflow: hidden;
+  border-width: 1px;
+  border-color: #071F4C;
+  border-style: solid;
 }
  
 div#header-section {
@@ -54,7 +57,7 @@ div#header-section img {
 
 div#nav-section {
   margin-top: 80px;
-  margin-left: 8px;
+  margin-left: 25px;
   float: left;
   clear: left;
   border-width: 1px;
@@ -82,7 +85,7 @@ div#nav-section ul li.current a {
 div#main-section {
   float: left;
   margin-left: 25px;
-  width: 650px;
+  width: 620px;
 }
 
 div#footer-section {
@@ -94,10 +97,10 @@ div#footer-section {
 
 div#footer-section img {
   position: relative;
-  margin-top: -194px;
+  margin-top: -209px;
 }
 
 div#footer-section img.right {
   float: right;
-  margin-top: -62px;
+  margin-top: -77px;
 }
