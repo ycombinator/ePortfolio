@@ -12,9 +12,10 @@ p {
 
 h1 {
   font-family: "Georgia", serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin-top: 0px;
   margin-left: 182px;
+  margin-right: 40px;
 }
 
 h1.introduction {
@@ -23,7 +24,7 @@ h1.introduction {
 
 h2 {
   font-family: "Georgia", serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }	
 
 div#page-section {
