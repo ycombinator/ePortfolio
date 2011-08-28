@@ -57,20 +57,20 @@ div#header-section img {
 
 div#nav-section {
   margin-top: 80px;
-  margin-left: 25px;
   float: left;
   clear: left;
   border-width: 1px;
   border-color: #071F4C;
   border-style: none;
+  width: 160px;
 }
 
 div#nav-section ul {
   list-style: none;
   font-family: "Georgia", serif;
-  font-size: 1.0em;
-  padding-left: 13px;
+  font-size: 1em;
   padding-right: 11px;
+  width: 100%;
 }
 
 div#nav-section ul a {
