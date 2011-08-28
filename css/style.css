@@ -3,6 +3,7 @@ body{
   color: #071F4C;
   margin: 0px;
   padding: 0px;
+  height: 100%;
 }
 
 p {
@@ -30,7 +31,7 @@ h2 {
 div#page-section {
   margin-top: 60px;
   padding-top: 48px;
-  padding-bottom: 16px;
+  padding-bottom: 48px;
   width: 828px;
   margin-left: auto;
   margin-right: auto;
@@ -39,6 +40,7 @@ div#page-section {
   border-width: 1px;
   border-color: #071F4C;
   border-style: solid;
+  margin-bottom: 60px;
 }
  
 div#header-section {
@@ -94,10 +96,16 @@ div#main-section {
 
 div#footer-section {
   float: none;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+div#footer-section div#images {
   margin-left: auto;
   margin-right: auto;
   width: 940px;
-  margin-bottom: 0px;
+  
 }
 
 div#footer-section img {
