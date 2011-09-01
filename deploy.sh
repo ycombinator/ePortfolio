@@ -1,9 +1,17 @@
-echo "***** Updating working copy..." && \
+echo "************************************" && \
+echo "******* Updating working copy ******" && \
+echo "************************************" && \
 git pull origin master && \
-echo "***** Committing changes..." && \
+echo "************************************" && \
+echo "******** Committing changes ********" && \
+echo "************************************" && \
 git add *.html css/* && \
 git commit -m "$1" && \
-echo "***** Pushing changes from working copy to git repo..." && \
+echo "************************************" && \
+echo "**** Pushing changes to git repo ***" && \
+echo "************************************" && \
 git push && \
-echo "***** Pulling changes from git repo to tiffanyh.info server..." && \
+echo "************************************" && \
+echo "***** Pulling changes to server ****" && \
+echo "************************************" && \
 ssh -i /c/Users/Tiffany/.ssh/ec2.pem ec2-user@tiffanyh.info 'cd /var/www/vhosts/tiffanyh.info/htdocs/e-portfolio/ && git pull'
