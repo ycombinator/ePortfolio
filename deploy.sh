@@ -18,3 +18,5 @@ ssh -i /c/Users/Tiffany/.ssh/ec2.pem ec2-user@tiffanyh.info 'cd /var/www/vhosts/
 echo "************************************" && \
 echo "************* SUCCESS  *************" && \
 echo "************************************"
+
+
